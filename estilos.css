@@ -147,6 +147,12 @@ nav {
     gap: 10px;
 }
 
+.nav-iconos {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .nav-buscador i {
     color: var(--blanco);
     font-size: 18px;
@@ -486,8 +492,27 @@ footer {
     }
 
     nav {
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: stretch;
         gap: 15px;
+    }
+
+    .nav-logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        order: 1;
+    }
+
+    .nav-iconos {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        order: 2;
+    }
+
+    .menu {
+        margin-right: 0;
     }
 
     .hero-contenido h1 {
