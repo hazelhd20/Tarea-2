@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="ancho barra-superior">
+            <div class="barra-contacto">
+                <div class="item-contacto">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Address: 4578 Marmora Road, Glasgow, D04 89GR</p>
+                </div>
+                <div class="item-contacto">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>Phones: (800) 123-0045; (800) 123-0046</p>
+                </div>
+            </div>
+            <div class="barra-redes">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="seccion-hero">
+        <div id="overlay-menu" class="overlay-menu"></div>
+        <nav class="ancho">
+            <div class="nav-logo">
+                <img src="imagenes/logo.png" alt="Logo">
+            </div>
+            <div class="nav-enlaces">
+                <button class="cerrar-menu" aria-label="Cerrar menú">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul id="contenedor_menu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">OUR TEAM</a></li>
+                    <li><a href="#">PROJECTS <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">CONTACTS</a></li>
+                </ul>
+            </div>
+            <button id="menu" class="menu" aria-label="menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </nav>
+
+        <img src="imagenes/slide-1.jpg" alt="Construction" class="hero-imagen">
+
+        <div class="hero-contenido">
+            <h1>CONSTRUCTION</h1>
+            <p>SEE HOW A 10-STORIES TOWER'S BEING BUILT, IN A TIME-LAPSE!</p>
+            <a href="#" class="btn-accion">SEE OUR RECENT PROJECTS</a>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section class="seccion-servicios">
+        <div class="ancho">
+            <h2 class="titulo-seccion">OUR SERVICES</h2>
+            <div class="grid-servicios">
+                <div class="tarjeta-servicio">
+                    <div class="icono-servicio">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <h3>BUILDING INFORMATION MODELING</h3>
+                    <p>Oftentimes physical and functional essence of any construction project needs to be represented
+                        digitally, in a 3D model format. In...</p>
+                </div>
+                <div class="tarjeta-servicio">
+                    <div class="icono-servicio">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <h3>CONSTRUCTION SERVICES</h3>
+                    <p>Our customers love the pace/quality tempo that we show during each of the principal construction
+                        processes! We're comfortable with any...</p>
+                </div>
+                <div class="tarjeta-servicio">
+                    <div class="icono-servicio">
+                        <i class="fa-solid fa-ruler-combined"></i>
+                    </div>
+                    <h3>PRE-CONSTRUCTION SERVICES</h3>
+                    <p>We take our time on initial planning before any construction begins, to balance all the financial
+                        and efficiency issues beforehand. This...</p>
+                </div>
+                <div class="tarjeta-servicio">
+                    <div class="icono-servicio">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                    <h3>DESIGN-BUILD</h3>
+                    <p>If a project is not too complex, we may hire a designer-builder type of contractor, to make the
+                        longevity of...</p>
+                </div>
+                <div class="tarjeta-servicio">
+                    <div class="icono-servicio">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+                    <h3>CONSTRUCTION MANAGEMENT</h3>
+                    <p>Construction project management is essential. We're using the most time and iterations efficient
+                        life cycles for that. As you may know,...</p>
+                </div>
+                <div class="tarjeta-servicio">
+                    <div class="icono-servicio">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+                    <h3>GENERAL CONTRACTING</h3>
+                    <p>We have a long list of professional contractors, whom our engineers and architects enjoy to work
+                        with on a majority...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Historia -->
+    <section class="seccion-historia">
+        <div class="ancho contenedor-historia">
+            <div class="texto-historia">
+                <h2 class="titulo-seccion-izquierda">OUR HISTORY</h2>
+                <p class="historia-resaltada">OUR CONSTRUCTION COMPANY HAS BEEN FOUNDED 10 YEARS AGO, AT THE VERY PEAK
+                    OF THE BUILDING FRENZY IN THE US...</p>
+                <p class="historia-texto">Since then we've built hundreds of commercial, government and private
+                    buildings and facilities. It may not sound like a lot, but if you estimate the manpower, working
+                    hours, materials, planning and correlating that were all involved in completing each separate
+                    project, then our productivity is immense!</p>
+                <a href="#" class="btn-accion">READ MORE</a>
+            </div>
+            <div class="imagen-historia">
+                <img src="imagenes/foto1.jpg" alt="Construction workers">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="footer-logo">
+            <img src="imagenes/logo.png" alt="Logo">
+        </div>
+        <div class="ancho footer-contenido">
+            <p class="footer-copy">Zemez © 2025. All rights reserved.</p>
+            <div class="footer-redes">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Función para abrir el menú
+        function abrirMenu() {
+            $(".nav-enlaces").addClass("abrir-menu");
+            $("#overlay-menu").show();
+        }
+
+        // Función para cerrar el menú
+        function cerrarMenu() {
+            $(".nav-enlaces").removeClass("abrir-menu");
+            $("#overlay-menu").hide();
+        }
+
+        // abrir/cerrar menu con el botón hamburguesa
+        $("#menu").click(function (e) {
+            e.stopPropagation();
+            if ($(".nav-enlaces").hasClass("abrir-menu")) {
+                cerrarMenu();
+            } else {
+                abrirMenu();
+            }
+        });
+
+        // cerrar menu con el botón X
+        $(".cerrar-menu").click(function (e) {
+            e.stopPropagation();
+            cerrarMenu();
+        });
+
+        // cerrar menu al hacer clic en un enlace
+        $("#contenedor_menu a").click(function () {
+            cerrarMenu();
+        });
+
+        // cerrar menu al hacer clic en el overlay
+        $("#overlay-menu").click(function () {
+            cerrarMenu();
+        });
+
+        // cerrar menu al hacer clic fuera
+        $(document).click(function (e) {
+            if (!$(e.target).closest('.nav-enlaces, #menu').length) {
+                cerrarMenu();
+            }
+        });
+    </script>
+</body>
+
+</html>
